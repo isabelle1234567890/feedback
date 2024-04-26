@@ -80,5 +80,36 @@ body {
 }
 
 .botoes button:hover {
-    
+    color: var(--withe);
+    background-color: var(--orange);
+    cursor: pointer;
 }
+
+.botoes button:focus {
+    color: var(--withe);
+    background-color: var(--light-grey);
+}
+
+.card > a {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 22px;
+
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--withe);
+    text-align: center;
+    text-decoration: none;
+
+    transition: all ease-in-out 0.3s;
+}
+
+.card > a:hover {
+    color: var(--orange);
+    background-color: var(--withe);
+    cursor: pointer;}
